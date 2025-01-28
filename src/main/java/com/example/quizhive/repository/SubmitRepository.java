@@ -1,15 +1,3 @@
-//package com.example.quizhive.repository;
-//
-//import com.example.quizhive.model.Submit;
-//import org.springframework.data.mongodb.repository.MongoRepository;
-//import org.springframework.stereotype.Repository;
-//
-//import java.util.List;
-//
-//@Repository
-//public interface SubmitRepository extends MongoRepository<Submit, String> {
-//    List<Submit> findByUserIdAndQuestionId(String userId, String questionId);
-//}
 package com.example.quizhive.repository;
 
 import com.example.quizhive.model.Submit;
